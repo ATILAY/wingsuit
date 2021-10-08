@@ -1,0 +1,67 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-top: 16px;
+}
+
+.table-container h2 {
+  background-color: var(--color-light-blue);
+  color: var(--color-white);
+  font-family: sans-serif;
+  margin: 12px 0;
+}
+
+.table-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.table-item div {
+  border: 1px solid transparent;
+  margin: 4px;
+
+  border-right: none;
+  border-bottom: none;
+  text-align: center;
+}
+
+.table-header div {
+  font-weight: 500;
+}
+
+.table-col-title {
+  background-color: var(--color-light-blue);
+  color: var(--color-white);
+  width: var(--width-table-elements);
+  border-radius: var(--border-radius-table-elements);
+  transition: var(--global-transition);
+}
+
+.table-col-title:hover {
+  background-color: var(--color-white);
+  color: var(--color-light-blue);
+  letter-spacing: var(--global-letter-spacing);
+  font-weight: var(--global-font-weight);
+}
+
+.table-item input {
+  border-radius: var(--border-radius-table-elements);
+  border-color: #80808024;
+  width: var(--width-table-elements);
+}
+
+.delete-button-element {
+  cursor: pointer;
+  width: var(--width-table-elements);
+  border-radius: var(--border-radius-table-elements);
+  border-color: #80808024;
+  transition: var(--global-transition);
+}
+
+.delete-button-element:hover {
+  background-color: rgb(201, 52, 52);
+  color: var(--color-white);
+  letter-spacing: var(--global-letter-spacing);
+  font-weight: var(--global-font-weight);
+}

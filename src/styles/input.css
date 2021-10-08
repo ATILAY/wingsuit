@@ -1,0 +1,12 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent;
+}
+
+.input-container input {
+  margin: 4px;
+  width: var(--width-table-elements);
+  border-radius: var(--border-radius-table-elements);
+  border-color: #80808024;
+}

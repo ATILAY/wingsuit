@@ -1,0 +1,26 @@
+.point-container {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: var(--color-dark-blue);
+  z-index: 99;
+  border-radius: 50%;
+}
+
+.point-container:hover {
+  cursor: grab;
+}
+.point-container:active {
+  box-shadow: unset !important;
+  cursor: grabbing !important;
+}
+
+.point-container .label {
+  font-weight: bold;
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: var(--color-dark-blue);
+}
