@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wingsuit/static/css/main.2bb703b8.chunk.css",
+    "main.js": "/wingsuit/static/js/main.52fd6447.chunk.js",
+    "main.js.map": "/wingsuit/static/js/main.52fd6447.chunk.js.map",
+    "runtime-main.js": "/wingsuit/static/js/runtime-main.2b493f69.js",
+    "runtime-main.js.map": "/wingsuit/static/js/runtime-main.2b493f69.js.map",
+    "static/js/2.fbb4d110.chunk.js": "/wingsuit/static/js/2.fbb4d110.chunk.js",
+    "static/js/2.fbb4d110.chunk.js.map": "/wingsuit/static/js/2.fbb4d110.chunk.js.map",
+    "static/js/3.47dbc9c5.chunk.js": "/wingsuit/static/js/3.47dbc9c5.chunk.js",
+    "static/js/3.47dbc9c5.chunk.js.map": "/wingsuit/static/js/3.47dbc9c5.chunk.js.map",
+    "index.html": "/wingsuit/index.html",
+    "static/css/main.2bb703b8.chunk.css.map": "/wingsuit/static/css/main.2bb703b8.chunk.css.map",
+    "static/js/2.fbb4d110.chunk.js.LICENSE.txt": "/wingsuit/static/js/2.fbb4d110.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b493f69.js",
+    "static/js/2.fbb4d110.chunk.js",
+    "static/css/main.2bb703b8.chunk.css",
+    "static/js/main.52fd6447.chunk.js"
+  ]
+}
